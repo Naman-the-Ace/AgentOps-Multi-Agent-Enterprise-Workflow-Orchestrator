@@ -126,3 +126,4 @@ services:
 volumes:
   pgdata:
     name: agentops_pgdata
+
