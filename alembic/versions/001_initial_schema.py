@@ -135,3 +135,4 @@ def downgrade() -> None:
     op.drop_table("approval_requests")
     op.drop_table("agent_traces")
     op.drop_table("workflow_runs")
+

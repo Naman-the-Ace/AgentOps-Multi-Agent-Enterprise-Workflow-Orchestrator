@@ -36,3 +36,4 @@ async def get_checkpointer() -> AsyncPostgresSaver:
     await _checkpointer.setup()
     logger.info("Checkpointer ready")
     return _checkpointer
+
