@@ -65,3 +65,4 @@ class WorkflowState(TypedDict):
 
     # Metadata forwarded to LangSmith and audit log
     run_metadata: dict           # {user_id, role, budget_limit, langsmith_tags}
+
