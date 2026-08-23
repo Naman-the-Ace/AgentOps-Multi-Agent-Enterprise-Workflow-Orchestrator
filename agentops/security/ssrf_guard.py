@@ -166,3 +166,4 @@ async def safe_get(
             return response
 
     raise SSRFBlocked(f"redirect loop exceeded {max_redirects} hops")
+

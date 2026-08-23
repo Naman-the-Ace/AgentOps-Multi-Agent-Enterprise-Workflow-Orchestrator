@@ -135,3 +135,4 @@ class ResearcherAgent(BaseAgent):
             ],
             "total_tokens": state.get("total_tokens", 0) + total_tokens,
         }
+
