@@ -363,3 +363,4 @@ def _safe_domain(company: str) -> str:
     import re
     slug = re.sub(r"[^a-z0-9]+", "", company.lower()) or "example"
     return f"{slug}.com"
+
