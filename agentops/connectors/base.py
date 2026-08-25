@@ -225,3 +225,4 @@ class BaseConnector:
         # Defensive — loop always returns or raises above.
         assert last_exc is not None
         raise RetryableError(0, str(last_exc), self.vendor) from last_exc
+
