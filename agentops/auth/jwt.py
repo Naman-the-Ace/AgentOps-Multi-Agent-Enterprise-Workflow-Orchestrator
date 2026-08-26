@@ -143,3 +143,4 @@ def decode_access_token(token: str) -> dict[str, Any]:
         raise JWTError("token revoked")
 
     return claims
+

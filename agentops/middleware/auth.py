@@ -157,3 +157,4 @@ def _unauthorized(detail: str) -> JSONResponse:
         {"error": "Unauthorized", "detail": detail},
         status_code=401,
     )
+

@@ -91,3 +91,4 @@ ROUTE_PERMISSION_MAP: dict[tuple[str, str], tuple[str, str]] = {
     ("GET",    "/marketplace"):                   ("read",    "marketplace"),
     ("POST",   "/marketplace/templates/refresh"): ("write",   "marketplace"),
 }
+
