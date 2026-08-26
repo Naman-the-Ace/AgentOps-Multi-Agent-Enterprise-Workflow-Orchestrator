@@ -274,3 +274,4 @@ async def health():
         "database": "connected" if pool else "unavailable",
         "graph": "compiled" if graph else "not_ready",
     })
+

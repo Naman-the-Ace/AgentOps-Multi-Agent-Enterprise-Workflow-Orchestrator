@@ -372,3 +372,4 @@ async def get_trace(
         )
         for r in rows
     ]
+
