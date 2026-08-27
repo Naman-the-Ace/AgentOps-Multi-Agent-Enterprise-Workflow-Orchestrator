@@ -183,3 +183,4 @@ def _row_to_schema(row: dict) -> ApprovalRequestResponse:
         resolved_at=row.get("resolved_at"),
         resolution_note=row.get("resolution_note"),
     )
+
