@@ -144,3 +144,4 @@ class PGVectorStore:
         if count > 0:
             logger.info("Cleaned up %d expired memory vectors", count)
         return count
+
