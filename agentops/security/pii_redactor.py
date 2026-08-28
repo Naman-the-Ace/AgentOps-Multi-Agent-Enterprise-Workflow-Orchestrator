@@ -131,3 +131,4 @@ def _apply_pattern(
         return replacement
 
     return pattern.sub(_sub, text), found
+

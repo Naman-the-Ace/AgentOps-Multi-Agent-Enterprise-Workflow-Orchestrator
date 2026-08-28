@@ -113,3 +113,4 @@ def scan_prompt(text: str) -> RiskScore:
         return RiskScore(level=RiskLevel.MEDIUM, reasons=reasons)
 
     return RiskScore(level=RiskLevel.LOW)
+
