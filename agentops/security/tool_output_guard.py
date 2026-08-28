@@ -94,3 +94,4 @@ def _to_text(value: Any) -> str:
         return json.dumps(value, default=str, ensure_ascii=False, indent=2)
     except Exception:
         return repr(value)
+

@@ -57,3 +57,4 @@ def require_allowed(recipient: str, allowed_domains: Iterable[str]) -> None:
         raise EmailNotAllowed(
             f"recipient '{recipient}' is not in the workspace email allowlist"
         )
+
