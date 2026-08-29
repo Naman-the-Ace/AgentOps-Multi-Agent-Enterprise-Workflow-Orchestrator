@@ -99,3 +99,4 @@ def get_circuit_breaker(name: str, **kwargs: Any) -> CircuitBreaker:
     if name not in _registry:
         _registry[name] = CircuitBreaker(name=name, **kwargs)
     return _registry[name]
+
