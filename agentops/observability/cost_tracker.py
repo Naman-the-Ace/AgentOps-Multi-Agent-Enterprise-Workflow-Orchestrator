@@ -104,3 +104,4 @@ class CostTracker:
             result[agent]["cost_usd"] += entry["cost_usd"]
             result[agent]["calls"] += 1
         return result
+

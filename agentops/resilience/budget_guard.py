@@ -34,3 +34,4 @@ class BudgetGuard:
 
     def remaining(self, current_cost_usd: float) -> float:
         return max(0.0, self.limit_usd - current_cost_usd)
+
