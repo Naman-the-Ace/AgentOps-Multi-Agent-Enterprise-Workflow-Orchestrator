@@ -200,3 +200,4 @@ class MetricsStore:
         except Exception as e:
             logger.error("MetricsStore.get_budget_alerts failed: %s", e)
             return []
+
