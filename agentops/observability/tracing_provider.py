@@ -83,3 +83,4 @@ def configure() -> Settings:
         "Unknown TRACING_PROVIDER '%s'; falling back to langsmith.", provider
     )
     return settings
+
