@@ -158,3 +158,4 @@ class SalesforceConnector(BaseConnector):
         return await self._request(
             "GET", self._api("/query/"), params={"q": soql}
         )
+
