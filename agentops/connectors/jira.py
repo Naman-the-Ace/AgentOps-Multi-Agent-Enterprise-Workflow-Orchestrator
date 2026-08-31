@@ -156,3 +156,4 @@ def _adf_from_text(text: str) -> dict[str, Any]:
             }
         ],
     }
+

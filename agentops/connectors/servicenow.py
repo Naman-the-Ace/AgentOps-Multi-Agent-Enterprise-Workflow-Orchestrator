@@ -170,3 +170,4 @@ class ServiceNowConnector(BaseConnector):
         if fields:
             params["sysparm_fields"] = ",".join(fields)
         return await self._request("GET", f"/api/now/table/{table}", params=params)
+
