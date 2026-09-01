@@ -202,3 +202,4 @@ class MSGraphConnector(BaseConnector):
     async def get_user(self, user_id_or_upn: str) -> dict:
         """Fetch a user by Azure AD object ID, UPN, or email."""
         return await self._request("GET", f"/users/{user_id_or_upn}")
+
