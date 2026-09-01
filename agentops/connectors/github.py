@@ -130,3 +130,4 @@ class GitHubConnector(BaseConnector):
         return await self._request(
             "GET", f"/orgs/{owner}/repos", params={"per_page": per_page}
         )
+
