@@ -105,3 +105,4 @@ class A2AMessage(BaseModel):
             params={"artifact": artifact.model_dump(mode="json")},
             id=request_id,
         )
+

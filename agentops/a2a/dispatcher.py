@@ -111,3 +111,4 @@ async def dispatch_node(node_name: str, state: dict[str, Any]) -> str | None:
         # Dispatch is a best-effort observability layer — never block the run
         logger.warning("A2A dispatch failed for %s: %s", node_name, exc)
         return None
+

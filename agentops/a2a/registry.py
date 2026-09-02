@@ -116,3 +116,4 @@ def register_default_agents() -> None:
         capabilities=["proposal_drafting", "crm_update", "email_sending"],
         endpoint="internal://executor",
     ))
+
