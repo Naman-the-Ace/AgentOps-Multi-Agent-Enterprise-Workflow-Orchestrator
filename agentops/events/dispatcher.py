@@ -141,3 +141,4 @@ class EventDispatcher:
         if workflow_type == "finance_recon":
             return FinanceReconPipeline(graph), ReconciliationInput(**payload)
         return SalesOpsPipeline(graph), LeadInput(**payload)
+

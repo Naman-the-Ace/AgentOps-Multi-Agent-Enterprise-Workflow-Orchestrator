@@ -179,3 +179,4 @@ class RedisStreamsConsumer:
             await self._client.xack(self.stream, self.group, msg_id)
         except Exception as exc:
             logger.warning("XACK %s failed: %s", msg_id, exc)
+

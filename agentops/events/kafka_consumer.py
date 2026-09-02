@@ -130,3 +130,4 @@ class KafkaConsumer:
             await self._consumer.commit()
         except Exception as exc:
             logger.warning("Kafka commit failed: %s", exc)
+
