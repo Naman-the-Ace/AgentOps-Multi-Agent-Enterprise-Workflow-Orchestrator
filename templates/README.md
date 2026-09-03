@@ -68,3 +68,4 @@ python scripts/marketplace.py show sales_ops
 # Validate a manifest before opening a PR
 python scripts/marketplace.py validate ./templates/community/my_workflow/manifest.yaml
 ```
+

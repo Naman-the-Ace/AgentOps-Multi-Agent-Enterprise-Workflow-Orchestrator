@@ -217,3 +217,4 @@ def get_registry() -> TemplateRegistry:
     if _singleton is None:
         _singleton = TemplateRegistry()
     return _singleton
+
