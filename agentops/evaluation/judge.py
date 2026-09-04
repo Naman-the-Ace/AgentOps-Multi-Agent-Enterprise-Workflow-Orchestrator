@@ -85,3 +85,4 @@ class LLMJudge:
                 coherence=0.5,
                 hallucination_flag=False,
             )
+
