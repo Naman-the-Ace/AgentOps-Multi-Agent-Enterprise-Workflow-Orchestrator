@@ -65,3 +65,4 @@ def verify_oidc_token(id_token: str) -> dict[str, Any]:
     if not claims.get("sub"):
         raise OIDCError("OIDC token missing 'sub'")
     return claims
+

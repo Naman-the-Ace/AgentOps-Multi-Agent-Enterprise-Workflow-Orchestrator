@@ -31,3 +31,4 @@ def verify_code(secret: str | None, code: str | None, *, window: int = 1) -> boo
         return pyotp.TOTP(secret).verify(str(code).strip(), valid_window=window)
     except Exception:  # noqa: BLE001
         return False
+

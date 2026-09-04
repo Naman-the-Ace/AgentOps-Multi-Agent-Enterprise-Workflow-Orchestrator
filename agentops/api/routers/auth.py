@@ -303,3 +303,4 @@ def _is_uuid(value: str) -> bool:
         return True
     except (ValueError, TypeError):
         return False
+
