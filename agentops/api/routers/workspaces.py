@@ -123,3 +123,4 @@ async def get_workspace(slug: str, pool: asyncpg.Pool = Depends(get_pool)):
         created_at=row["created_at"].isoformat() if row["created_at"] else "",
         archived=row["archived_at"] is not None,
     )
+

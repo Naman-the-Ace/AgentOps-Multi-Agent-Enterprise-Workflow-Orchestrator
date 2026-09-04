@@ -114,3 +114,4 @@ def downgrade() -> None:
         op.execute(f"ALTER TABLE {table} DROP COLUMN IF EXISTS workspace_id")
 
     op.execute("DROP TABLE IF EXISTS workspaces")
+
