@@ -89,3 +89,4 @@ async def test_happy_path_multi_rotation(pool):
     finally:
         async with pool.acquire() as conn:
             await conn.execute("DELETE FROM auth_users WHERE id = $1", user["id"])
+

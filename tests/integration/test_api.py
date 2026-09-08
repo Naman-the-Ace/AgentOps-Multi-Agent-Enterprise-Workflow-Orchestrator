@@ -69,3 +69,4 @@ def test_rbac_blocks_unauthenticated():
                 headers={"Authorization": f"Bearer {token}"},
             )
             assert response.status_code == 403
+

@@ -115,3 +115,4 @@ class TestSalesOpsPipeline:
 
         state_update = mock_graph.ainvoke.call_args[0][0]
         assert state_update["approval_status"] == "rejected"
+
