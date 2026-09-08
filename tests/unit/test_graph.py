@@ -72,3 +72,4 @@ class TestGraphCompilation:
         node_names = set(graph.nodes.keys())
         expected = {"supervisor", "researcher", "analyzer", "executor", "human_approval"}
         assert expected.issubset(node_names)
+

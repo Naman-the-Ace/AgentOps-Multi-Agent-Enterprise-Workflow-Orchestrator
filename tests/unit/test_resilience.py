@@ -166,3 +166,4 @@ class TestNodeCostTracking:
         assert result["total_cost_usd"] == pytest.approx(1.5 + 0.000045, rel=0.01)
 
         get_settings.cache_clear()
+

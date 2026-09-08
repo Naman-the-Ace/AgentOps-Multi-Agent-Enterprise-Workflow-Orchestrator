@@ -115,3 +115,4 @@ class TestPromptGuard:
     def test_empty_string_is_low(self):
         score = scan_prompt("")
         assert score.level == RiskLevel.LOW
+
