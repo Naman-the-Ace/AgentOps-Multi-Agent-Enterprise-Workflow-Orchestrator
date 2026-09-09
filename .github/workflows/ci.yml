@@ -152,3 +152,4 @@ jobs:
           tags: ghcr.io/${{ steps.repo.outputs.name }}/dashboard:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
+
