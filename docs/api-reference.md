@@ -158,3 +158,4 @@ Response `200`: `{ "run_id", "thread_id", "status", "message" }`.
 
 `GET /health` (public) → `{ "status": "healthy", "database": "connected", "graph": "compiled" }`.
 Used by container/orchestrator liveness probes.
+

@@ -117,3 +117,4 @@ MSAL / client-credentials.
 2. Add its settings to [`agentops/config.py`](../agentops/config.py) and this page.
 3. Add a matching MCP tool router under `agentops/mcp/server/tools/` and mount it
    in `agentops/mcp/server/main.py`.
+
