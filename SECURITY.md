@@ -81,3 +81,4 @@ production-shaped configuration when they are unsafe (see
 
 The full threat model, attacker scenarios, and the status of each historical
 finding are tracked in [SECURITY_AUDIT.md](SECURITY_AUDIT.md).
+

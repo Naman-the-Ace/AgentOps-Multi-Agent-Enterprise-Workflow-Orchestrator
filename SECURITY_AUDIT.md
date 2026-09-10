@@ -299,3 +299,4 @@ To clear **80+** you need the items in the "High priority within 30 days" list â
 8. Privacy by design: per-workspace PII toggle, GDPR export/delete APIs.
 9. Agent governance: version every system prompt, tool, policy; diff in admin UI.
 10. Adversarial CI suite: per-role per-tenant negative tests in `tests/security/`.
+
