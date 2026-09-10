@@ -134,3 +134,4 @@ def _walk(value: Any) -> tuple[Any, list[str], list[str]]:
 
     # int, float, bool, None — pass through untouched
     return value, pii, risks
+
