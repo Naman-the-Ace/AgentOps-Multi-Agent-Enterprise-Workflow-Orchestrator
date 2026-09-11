@@ -78,3 +78,4 @@ Initial public release. Phases 0–6.
 
 [Unreleased]: https://github.com/JoelJohnsonThomas/agentops/compare/v0.1.0...HEAD
 [0.1.0]: https://github.com/JoelJohnsonThomas/agentops/releases/tag/v0.1.0
+
