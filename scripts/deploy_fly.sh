@@ -31,3 +31,4 @@ echo "  curl https://agentops-console.fly.dev/api/health"
 echo
 echo "Console URL:"
 echo "  fly info -a agentops-console --json | jq -r '.Hostname' | awk '{print \"https://\" \$0}'"
+
